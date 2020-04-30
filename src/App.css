@@ -1,0 +1,76 @@
+.App {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #0f0f0f;
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 24px;
+}
+
+.display {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    border: none;
+    text-align: right;
+    background-color: inherit;
+    overflow: hidden;
+    font-family: 'Play', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+#preview {
+    color: lightyellow;
+    font-weight: 1.2rem;
+}
+
+#display {
+    color: yellow;
+    font-size: 1.8rem;
+}
+
+.button {
+    font-family: 'Play', sans-serif;
+    display: inline-block;
+    margin: 1px;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+#clear {
+    grid-column: 4 / 4;
+    grid-row: 2 / 5;
+}
+
+#equals {
+    grid-column: 3 / 5;
+    grid-row: 5 / 5;
+}
+
+#zero {
+    grid-row: 5 / 5;
+    grid-column: 2 / 3;
+}

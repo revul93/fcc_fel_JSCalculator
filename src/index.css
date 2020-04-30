@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.header {
+    font-size: 2.0rem;
+    text-align: center;
+    color: darkgoldenrod;
+    margin: 20px;
+}
+
+.footer {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer a:hover {
+    cursor: pointer;
+    color: orangered;
+}
